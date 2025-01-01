@@ -1,28 +1,26 @@
 class Solution {
     public int maxScore(String s) {
-        int count = 0 ;
-        for(int i =1 ; i<s.length();i++){
-            String ls = s.substring(0,i);
-            String rs = s.substring(i);
-            int lcount = 0 ;
-            int rcount = 0 ;
-            for(int j =0 ; j<ls.length();j++){
-                if(ls.charAt(j) == '0'){
-                    lcount = lcount +1;
-                }
-            }
-            for(int k =0 ; k<rs.length();k++){
-                if(rs.charAt(k) == '1'){
-                    rcount = rcount +1;
-                }
-            }
-            if (count == s.length()){
-                return count ; 
-            }
-            else if (count <= lcount+rcount){
-                count = lcount+rcount;
+        int zeros = 0 ;
+        int ones = 0 ; 
+        int ans = 0; 
+        for(int i = 0 ; i<s.length();i++){
+            if(s.charAt(i)== '1'){
+                ones = ones + 1;
             }
         }
-        return count ;
+        for(int j = 0 ; j<s.length()-1; j++){
+            if(s.charAt(j) == '0'){
+                zeros = zeros + 1;
+            }
+            else if (s.charAt(j)== '1'){
+                ones = ones -1 ; 
+            }
+
+            if (ans < (zeros + ones)){
+            ans = zeros + ones ; 
+        }
+        }
+        
+        return ans;
     }
 }
