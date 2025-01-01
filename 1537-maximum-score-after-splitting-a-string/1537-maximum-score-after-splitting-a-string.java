@@ -16,7 +16,10 @@ class Solution {
                     rcount = rcount +1;
                 }
             }
-            if (count <= lcount+rcount){
+            if (count == s.length()){
+                return count ; 
+            }
+            else if (count <= lcount+rcount){
                 count = lcount+rcount;
             }
         }
