@@ -17,4 +17,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2358-number-of-ways-to-split-array](https://github.com/Nalin-khanna/DSA/tree/master/2358-number-of-ways-to-split-array) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Nalin-khanna/DSA/tree/master/2691-count-vowel-strings-in-ranges) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Nalin-khanna/DSA/tree/master/0002-add-two-numbers) |
+## Math
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Nalin-khanna/DSA/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Nalin-khanna/DSA/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
