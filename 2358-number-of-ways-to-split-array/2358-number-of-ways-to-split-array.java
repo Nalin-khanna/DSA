@@ -9,9 +9,7 @@ class Solution {
         }
         int count = 0;
         for (int i = 0; i < n - 1; i++) {
-            long leftSum = prefSum[i];
-            long rightSum = prefSum[n - 1] - prefSum[i];
-            if (leftSum >= rightSum) {
+            if (prefSum[i] >= prefSum[n - 1] - prefSum[i]) {
                 count++;
             }
         }
