@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Nalin-khanna/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2358-number-of-ways-to-split-array](https://github.com/Nalin-khanna/DSA/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/Nalin-khanna/DSA/tree/master/2465-shifting-letters-ii) |
+| [2685-first-completely-painted-row-or-column](https://github.com/Nalin-khanna/DSA/tree/master/2685-first-completely-painted-row-or-column) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Nalin-khanna/DSA/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Linked List
 |  |
@@ -45,8 +46,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Nalin-khanna/DSA/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2685-first-completely-painted-row-or-column](https://github.com/Nalin-khanna/DSA/tree/master/2685-first-completely-painted-row-or-column) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Nalin-khanna/DSA/tree/master/2059-unique-length-3-palindromic-subsequences) |
+## Matrix
+|  |
+| ------- |
+| [2685-first-completely-painted-row-or-column](https://github.com/Nalin-khanna/DSA/tree/master/2685-first-completely-painted-row-or-column) |
 <!---LeetCode Topics End-->
