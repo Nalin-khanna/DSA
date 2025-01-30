@@ -1,15 +1,12 @@
 class Solution {
     List<Integer> getElementsOnlyInFirstList(int[] nums1 , int[] nums2 ){
         Set onlyin1 = new HashSet<>();
+        Set innums2 = new HashSet<>();
+        for(int num : nums2){
+            innums2.add(num);
+        }
         for(int i : nums1){
-            boolean ifexists = false;
-            for (int j : nums2){
-                if(j == i){
-                    ifexists = true ;
-                    break ; 
-                }
-            }
-            if(!ifexists){
+            if(!innums2.contains(i)){
                 onlyin1.add(i);
             }
         }
