@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Nalin-khanna/DSA/tree/master/0020-valid-parentheses) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Nalin-khanna/DSA/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Nalin-khanna/DSA/tree/master/1777-determine-if-two-strings-are-close) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Nalin-khanna/DSA/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -69,4 +70,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1777-determine-if-two-strings-are-close](https://github.com/Nalin-khanna/DSA/tree/master/1777-determine-if-two-strings-are-close) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Nalin-khanna/DSA/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
