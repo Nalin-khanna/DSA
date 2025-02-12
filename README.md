@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Nalin-khanna/DSA/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/Nalin-khanna/DSA/tree/master/0021-merge-two-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/Nalin-khanna/DSA/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0141-linked-list-cycle](https://github.com/Nalin-khanna/DSA/tree/master/0141-linked-list-cycle) |
 ## Math
 |  |
 | ------- |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/Nalin-khanna/DSA/tree/master/0141-linked-list-cycle) |
 | [1319-unique-number-of-occurrences](https://github.com/Nalin-khanna/DSA/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Nalin-khanna/DSA/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Nalin-khanna/DSA/tree/master/1777-determine-if-two-strings-are-close) |
@@ -97,4 +99,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0735-asteroid-collision](https://github.com/Nalin-khanna/DSA/tree/master/0735-asteroid-collision) |
 | [2470-removing-stars-from-a-string](https://github.com/Nalin-khanna/DSA/tree/master/2470-removing-stars-from-a-string) |
+## Two Pointers
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/Nalin-khanna/DSA/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
