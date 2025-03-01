@@ -2,26 +2,21 @@ import java.util.*;
 
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> globallist = new ArrayList<>(); // Global list to store combinations
-        backtrack(candidates, target, 0, new ArrayList<>(), 0, globallist);
-        return globallist;
+        List<List<Integer>> globallist = new ArrayList<>();
+        fn(candidates , new ArrayList<>() , 0 , 0 , target , globallist);
+        return globallist ; 
     }
-
-    private void backtrack(int[] candidates, int target, int idx, List<Integer> list, int sum, List<List<Integer>> globallist) {
-        if (sum == target) {
-            globallist.add(new ArrayList<>(list)); // Store a new copy of the list
-            return;
+    private void fn(int[] candidates , List<Integer> list , int index , int sum , int target ,List<List<Integer>> globallist){
+        if(sum > target || index == candidates.length){
+            return ; 
         }
-        if (sum > target || idx == candidates.length) {
-            return;
+        if(sum == target){
+            globallist.add(new ArrayList<>(list));
+            return ;
         }
-
-        // Include current element
-        list.add(candidates[idx]);
-        backtrack(candidates, target, idx, list, sum + candidates[idx], globallist); // Same idx (can reuse elements)
-        list.remove(list.size() - 1); // Remove last element after recursion
-
-        // Exclude current element and move to the next
-        backtrack(candidates, target, idx + 1, list, sum, globallist);
+        list.add(candidates[index]);
+        fn(candidates , list , index , sum+candidates[index],target , globallist);
+        list.remove(list.size()-1);
+        fn(candidates , list , index + 1 , sum , target , globallist);
     }
 }
