@@ -19,20 +19,13 @@ class Solution {
         if(root==null){
             return true;
         }
-        if(root.left == null && root.right==null ){
-            ans =  true;
-            return ans; 
-        }
-        
-        int lefth = helperfn(root.left) + 1; 
-        int righth = helperfn(root.right)+1;
-        if(Math.abs(lefth-righth) > 1 ){
+        int val = helperfn(root);
+        if(val == -1){
             return false ; 
         }
-        
-        
-        
-        return (isBalanced(root.left) && isBalanced(root.right));
+        else{
+            return true ;
+        }
     }
     public int helperfn(TreeNode Node){
         if(Node == null){
@@ -40,6 +33,12 @@ class Solution {
         }
         int left = helperfn(Node.left);
         int right = helperfn(Node.right);
+        if (left == -1 || right == -1 ){
+            return -1; 
+        }
+        if(Math.abs(left-right )> 1){
+            return -1;
+        }
         return 1 + Math.max(left , right);
     }
 }
