@@ -20,13 +20,7 @@ class Solution {
         if(root == null){
             return 0 ;
         }
-        
-        int lh = helperfn(root.left);
-        int rh = helperfn(root.right);
-        int diam = lh+rh;
-        max = Math.max(max , diam);
-        diameterOfBinaryTree(root.left);
-        diameterOfBinaryTree(root.right);
+        helperfn(root);
         return max;
     }
     public int helperfn(TreeNode node){
@@ -35,6 +29,7 @@ class Solution {
         }
         int left = helperfn(node.left);
         int right = helperfn(node.right);
+        max = Math.max(max,left+right);
         return (1 + Math.max(left,right));
     }
 }
